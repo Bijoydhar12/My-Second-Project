@@ -48,7 +48,7 @@ h1 {
 
 }
 
-.Experience-Item1,.Experience-Item2 {
+.Experience-Item1{
     margin-left: 5%;
     margin-right: 5%;
     padding: 20px;
@@ -56,11 +56,19 @@ h1 {
     border-radius: 10px;
     border-left: 7px solid blue;
 }
+.Experience-Item2{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 35px gray;
+    border-radius: 10px;
+    border-left: 7px solid 
+    tomato;
 
-
-
+}
 h2 {
     font-size: 40px;
 }
-
+footer p {
+    text-align: center;
 }
