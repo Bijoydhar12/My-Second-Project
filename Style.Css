@@ -10,13 +10,15 @@ h1 {
     color: orangered;
 }
 
-section {
+.flexable-container {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width {
     width: 50%;
     padding-left: 2%;
+
 
 
 }
@@ -34,4 +36,31 @@ section {
     font-weight: 700;
     padding: 10px 40px;
     border-radius: 5px;
+}
+
+.half-width2 {
+    padding-left: 10%;
+    padding-top: 4%;
+}
+
+.ExperienceArea {
+    width: 50%;
+
+}
+
+.Experience-Item1,.Experience-Item2 {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 35px gray;
+    border-radius: 10px;
+    border-left: 7px solid blue;
+}
+
+
+
+h2 {
+    font-size: 40px;
+}
+
 }
